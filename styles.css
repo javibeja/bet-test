@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input {
+  /* el calc es para darle un tamaño max sobre un total de pantalla o contenedor
+  por ejemplo aqui para que ocupe el 100% y tenga un margen de 10px basicamente
+  */
+  width: calc(100% - 10px);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#history {
+  margin-top: 30px;
+}
+
+#history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#history ul li {
+  background-color: #e9e9e9;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
